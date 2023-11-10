@@ -5,9 +5,19 @@
 }
 
 :root {
+  --text-primary-color: white;
+  --text-secondary-color: rgb(105, 103, 103);
   --primary-color: blue;
+  --secondary-color: rgb(44, 43, 43);
 }
 
 
 /* Custom CSS class Start */
 /* Custom CSS class End */
+
+.footer_main_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--secondary-color);
+  padding: 100px;
+}
